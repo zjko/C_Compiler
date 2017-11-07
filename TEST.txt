@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include"Analyzer.h"
+#define NULL 0
+int main(){
+	char fn[512] = "";
+	puts("请输入文件路径：");
+	
+	gets(fn) ;
+	puts("文件输入成功");
+	FILE * fp = NULL;
+	fp = fopen(fn,"r");
+	if(fp == NULL){
+		puts("文件打开失败");
+		return 0;	
+	}
+	while (feof(fp) != EOF)putchar(fgetchar());
+	
+}
