@@ -1,4 +1,8 @@
 #include"Analyzer.h"
+#include"InputStream.h"
 int main(){
-	Analyzer.readFile("TEST.txt");
+	
+	InputStream.readFile("TEST.txt");
+	Analyzer.analyzer();
+	
 }

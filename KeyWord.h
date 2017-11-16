@@ -1,3 +1,5 @@
+#ifndef __KEYWORD_H__
+#define __KEYWORD_H__
 
 
 struct KeyWord{
@@ -17,3 +19,5 @@ struct KeyWord{
 	"typede","sizeof","volatile","extern","auto","register"
 	};
 }KeyWord;
+
+#endif
